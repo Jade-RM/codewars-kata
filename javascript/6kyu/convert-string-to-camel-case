@@ -1,5 +1,0 @@
-function toCamelCase(str){
- return str.replace(/[-_](.)/g, (match, char) => char.toUpperCase());
-}
-console.log("the-stealth-warrior")
-console.log("The_Stealth_Warrior")
