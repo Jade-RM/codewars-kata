@@ -1,9 +1,0 @@
-// return masked string
-function maskify(cc) {
-  const lastFourChar = cc.slice(-4);
-  const otherChar = cc.slice(0, cc.length - 4);
-  if (cc.length <= 4)
-    return cc;
-  else
-    return '#'.repeat(otherChar.length) + lastFourChar;
-}
